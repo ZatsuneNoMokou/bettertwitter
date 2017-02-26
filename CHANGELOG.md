@@ -1,4 +1,4 @@
-# 0.11.0
+# 1.0.0-1.0.1 (and 0.11.0)
 * +: Stopping Firefox SDK version
 * +: Fused with another Twitter project to change some Twitter to not-short links, then addon new name "Better Twitter"
 * Fix: Video script again
