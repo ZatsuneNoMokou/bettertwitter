@@ -1,0 +1,10 @@
+{
+	"extName": {
+		"message": "Better Twitter",
+		"description": ""
+	},
+	"extShortDesc": {
+		"message": "Ajoute un liens sur les \"player cards\" Twitter et change les players de Twitter, et remet les \"vrais \" liens lorsque c'est possible sans requête.",
+		"description": "this will be used as short description in web stores: MUST BE 132 characters OR LESS"
+	}
+}

@@ -1,0 +1,36 @@
+{
+	"applications": {
+		"gecko": {
+			"id": "better_twitter_dev@zatsunenomokou.eu",
+			"update_url": "https://gitlab.com/ZatsuneNoMokou/copy_text_link/raw/master/dist/better_twitter_dev.update.json",
+			"strict_min_version": "50.0"
+		}
+	},
+	"manifest_version": 2,
+	"name": "Better Twitter (Dev)",
+	"short_name": "BetterTwitterDev",
+	"description": "__MSG_extShortDesc__",
+	"author": "ZatsuneNoMokou",
+	"version": "0.11.0",
+	"homepage_url": "https://gitlab.com/ZatsuneNoMokou/bettertwitter",
+	"icons": {
+		"128": "/icon_128.png"
+	},
+	"content_scripts": [
+		{
+			"all_frames": true,
+			"matches": ["*://*.twitter.com/*"],
+			"css": ["data/twitter_iframesContentStyle.css"],
+			"js": ["data/twitter_iframesContentScript.js","data/twitter.js"],
+			"run_at": "document_end"
+		}
+	],
+	"default_locale": "en",
+	"offline_enabled": false,
+	"permissions": [
+		"http://*.twitter.com/*",
+		"https://*.twitter.com/*"
+	],
+	"minimum_chrome_version": "42.0",
+	"web_accessible_resources": [ "/icon_128.png" ]
+}

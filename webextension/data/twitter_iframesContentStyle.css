@@ -1,0 +1,15 @@
+#playerContainer .player-wrapper video{
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+/*
+.skip-badge, .buffering, */
+.bg-play-pause, .all-controls, .duration-badge{
+	display: none !important;
+	visibility: hidden !important;
+}
+
+.gif-badge{
+	bottom: 30px !important;
+}

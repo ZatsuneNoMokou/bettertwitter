@@ -1,0 +1,5 @@
+better_twitter-*.zip
+better_twitter_dev_-*.zip
+tmp/
+.goutputstream*
+firefox/
