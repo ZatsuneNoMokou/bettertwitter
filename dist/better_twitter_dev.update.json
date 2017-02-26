@@ -2,7 +2,7 @@
 	"addons": {
 		"better_twitter_dev@zatsunenomokou.eu": {
 			"updates": [
-				{ "version": "0.11.0",
+				{ "version": "1.0.1",
 					"update_link": "https://gitlab.com/ZatsuneNoMokou/bettertwitter/raw/master/dist/better_twitter_dev.xpi",
 					"applications": {
 						"gecko": { "strict_min_version": "50" } } }
