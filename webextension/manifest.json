@@ -2,7 +2,7 @@
 	"applications": {
 		"gecko": {
 			"id": "better_twitter_dev@zatsunenomokou.eu",
-			"update_url": "https://gitlab.com/ZatsuneNoMokou/copy_text_link/raw/master/dist/better_twitter_dev.update.json",
+			"update_url": "https://gitlab.com/ZatsuneNoMokou/better_twitter_dev/raw/master/dist/better_twitter_dev.update.json",
 			"strict_min_version": "50.0"
 		}
 	},
@@ -11,7 +11,7 @@
 	"short_name": "BetterTwitterDev",
 	"description": "__MSG_extShortDesc__",
 	"author": "ZatsuneNoMokou",
-	"version": "0.11.0",
+	"version": "1.0.0",
 	"homepage_url": "https://gitlab.com/ZatsuneNoMokou/bettertwitter",
 	"icons": {
 		"128": "/icon_128.png"
